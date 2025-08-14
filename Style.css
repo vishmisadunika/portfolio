@@ -1,4 +1,4 @@
-/* Reset & basics */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,14 +15,13 @@ body {
   flex-direction: column;
 }
 
-/* Container */
+
 .container {
   width: 90%;
   max-width: 1100px;
   margin: auto;
 }
 
-/* Header/Nav */
 .header {
   background-color: #E6D3B3;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -67,7 +66,7 @@ body {
   color: #FAF5F0;
 }
 
-/* Buttons */
+
 .btn-primary {
   display: inline-block;
   background-color: #B68B5A;
@@ -87,7 +86,7 @@ body {
   background-color: #7D5A2B;
 }
 
-/* Home Page Styles */
+
 .home-main {
   flex-grow: 1;
   padding: 3rem 0;
@@ -256,7 +255,7 @@ body {
 }
 
 
-/* Contact Page */
+
 .contact-main {
   flex-grow: 1;
   padding: 4rem 0;
@@ -359,7 +358,7 @@ button[type="submit"] {
   text-decoration: underline;
 }
 
-/* Responsive */
+
 @media (max-width: 520px) {
   .contact-card {
     width: 100%;
@@ -368,7 +367,7 @@ button[type="submit"] {
 }
 
 
-/* Responsive */
+
 @media (max-width: 480px) {
   .contact-info li {
     justify-content: flex-start;
@@ -379,7 +378,7 @@ button[type="submit"] {
   }
 }
 
-/* Footer */
+
 .footer {
   background-color: #E6D3B3;
   text-align: center;
@@ -389,7 +388,7 @@ button[type="submit"] {
   margin-top: auto;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .nav-links {
     gap: 1rem;

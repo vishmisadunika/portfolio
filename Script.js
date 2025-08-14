@@ -4,7 +4,7 @@ const formMessage = document.getElementById('formMessage');
 form.addEventListener('submit', function (e) {
   e.preventDefault();
 
-  // Simple validation
+ 
   const name = form.name.value.trim();
   const email = form.email.value.trim();
   const subject = form.subject.value.trim();
@@ -16,7 +16,6 @@ form.addEventListener('submit', function (e) {
     return;
   }
 
-  // Basic email pattern check
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailPattern.test(email)) {
     formMessage.textContent = 'Please enter a valid email address.';
@@ -24,11 +23,11 @@ form.addEventListener('submit', function (e) {
     return;
   }
 
-  // If all good
+ 
   formMessage.textContent = 'Thank you for your message, ' + name + '! I will get back to you soon.';
   formMessage.style.color = 'green';
 
-  // Clear form
+ 
   form.reset();
 });
 
